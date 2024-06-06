@@ -1,0 +1,30 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+
+.dropdown-toggle::after {
+    display: none;
+}
+.dropdown-toggle:hover {
+    text-decoration: underline 2px red;
+}
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10rem;
+}
+ .list-unstyled li:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
+.fs-5:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+.container{
+    border-top: 1px white;
+}
